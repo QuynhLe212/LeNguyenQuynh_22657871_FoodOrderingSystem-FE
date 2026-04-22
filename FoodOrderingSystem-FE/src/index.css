@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #f97316; /* orange-500 */
+    --primary-hover: #ea580c; /* orange-600 */
+    --background: #ffffff;
+    --text-main: #1f2937; /* gray-800 */
+    --text-muted: #6b7280; /* gray-500 */
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-main);
+  }
+}
